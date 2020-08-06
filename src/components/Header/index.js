@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header>
-      <div>
+    <header style={{ display: "flex" }}>
+      <div style={{ marginRight: "20px" }}>
         <Link to="/">home</Link>
       </div>
       <div>
