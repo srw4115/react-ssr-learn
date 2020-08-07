@@ -1,0 +1,1 @@
+export default [{ path: "/", exact: true, import: () => import("../src/pages/Home"), },{ path: "/detail",  import: () => import("../src/pages/detail"), },]

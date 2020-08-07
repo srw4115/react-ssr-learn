@@ -3,7 +3,7 @@ import React from "react";
 import { StaticRouter } from "react-router-dom";
 import { renderToString } from "react-dom/server";
 
-import routes from "../routes";
+import routes from "../../routes";
 import Header from "../components/Header";
 
 const app = express();
